@@ -29,7 +29,7 @@ function nike () {
 
 nike()
 
-nikeButton.addEventListener('click', flowerCrown)
+nikeButton.addEventListener('click', nike)
 
 addidasButton.addEventListener('click', () => {
   changePic(-0.5, -0.9, 2, 2, 'bunny-ears.png')
