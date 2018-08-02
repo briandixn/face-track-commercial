@@ -5,7 +5,7 @@ const tracker = new tracking.ObjectTracker('face')
 
 ///define what the buttons will do
 const nikeButton = document.getElementById('nike')
-const addidasButton = document.getElementById('addidas')
+const adidasButton = document.getElementById('adidas')
 
 const img = new Image()
 let filterX = 0
@@ -24,14 +24,14 @@ function changePic (x, y, width, height, src) {
 //////these are hard codded values for the symbol
 ////we will test with a flower crown image
 function nike () {
-  changePic(0, 1, 1, 1, 'nike.jpg')
+  changePic(0, 0.9, 1, 1, 'nike.jpg')
 }
 
 nike()
 
 nikeButton.addEventListener('click', nike)
-/////test with bunny ears image
-addidasButton.addEventListener('click', () => {
+/////tested with bunny ears image
+adidasButton.addEventListener('click', () => {
   changePic(-0.5, -0.9, 2, 2, 'bunny-ears.png')
 })
 
