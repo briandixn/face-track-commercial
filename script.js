@@ -24,7 +24,7 @@ function changePic (x, y, width, height, src) {
 //////these are hard codded values for the symbol
 ////we will test with a flower crown image
 function nike () {
-  changePic(0, 0, 1, 1, 'nike.jpg')
+  changePic(0, -0.2, 1, 1, 'nike.jpg')
 }
 
 nike()
