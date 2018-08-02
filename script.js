@@ -24,13 +24,13 @@ function changePic (x, y, width, height, src) {
 //////these are hard codded values for the symbol
 ////we will test with a flower crown image
 function nike () {
-  changePic(0, -0.5, 1, 1, 'flower-crown.png')
+  changePic(0, -0.5, 1, 1, 'nike.jpg')
 }
 
 nike()
 
 nikeButton.addEventListener('click', nike)
-
+/////test with bunny ears image
 addidasButton.addEventListener('click', () => {
   changePic(-0.5, -0.9, 2, 2, 'bunny-ears.png')
 })
@@ -40,6 +40,8 @@ tracker.setStepSize(2)
 tracker.setEdgesDensity(0.1)
 tracking.track('#video', tracker, { camera: true })
 
+
+//////make sure that
 tracker.on('track', event => {
   context.clearRect(0, 0, canvas.width, canvas.height)
   event.data.forEach(rect => {
