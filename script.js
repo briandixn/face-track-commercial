@@ -29,7 +29,7 @@ function changePic (x, y, width, height, src) {
 ///with these coordinates changePic(0,-0.5, 1,1)
 ///for bunny ears its -0.5, -0.9, 2, 2
 function nike () {
-  changePic(0, 0.98, 1, 1, 'nike.jpg')
+  changePic(0, 0.98, 1, 1, 'nikep.png')
 }
 
 nike()
@@ -40,7 +40,7 @@ nike()
 nikeButton.addEventListener('click', nike)
 /////tested with bunny ears image
 adidasButton.addEventListener('click', () => {
-  changePic(0, 0.95, 1, 1, 'adidaso.jpg')
+  changePic(0, 0.95, 1, 1, 'adip.png')
 })
 
 ///sets the trackers initial values for detection. Values based on
