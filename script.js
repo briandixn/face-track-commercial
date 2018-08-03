@@ -40,7 +40,7 @@ nike()
 nikeButton.addEventListener('click', nike)
 /////tested with bunny ears image
 adidasButton.addEventListener('click', () => {
-  changePic(-0.5, -0.9, 2, 2, 'adidas.jpg')
+  changePic(0, 0.95, 1, 1, 'adidaso.jpg')
 })
 
 ///sets the trackers initial values for detection. Values based on
