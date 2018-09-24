@@ -53,8 +53,17 @@ button:active {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 420px) {
     h1 {
         font-size: 30px;
+    }
+    video, canvas {
+      display: block;
+      margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+
     }
 }
